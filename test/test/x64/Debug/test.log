@@ -1,0 +1,302 @@
+﻿  hello.cpp
+D:\ccode\test\test\hello.cpp(248,3): error C2668: “Pop”: 对重载函数的调用不明确
+      D:\ccode\test\test\hello.cpp(146,8):
+      可能是“Status Pop(SqStack &,BiTree &)”
+      D:\ccode\test\test\hello.cpp(42,8):
+      或    “Status Pop(SqStack &,BiTree)”
+      D:\ccode\test\test\hello.cpp(248,3):
+      尝试匹配参数列表“(SqStack, BiTree)”时
+  
+D:\ccode\test\test\hello.cpp(251,5): error C2668: “Push”: 对重载函数的调用不明确
+      D:\ccode\test\test\hello.cpp(141,8):
+      可能是“Status Push(SqStack &,BiTree)”
+      D:\ccode\test\test\hello.cpp(43,8):
+      或    “Status Push(SqStack &,BiTree &)”
+      D:\ccode\test\test\hello.cpp(251,5):
+      尝试匹配参数列表“(SqStack, BiTNode *)”时
+  
+D:\ccode\test\test\hello.cpp(255,5): error C2668: “Pop”: 对重载函数的调用不明确
+      D:\ccode\test\test\hello.cpp(146,8):
+      可能是“Status Pop(SqStack &,BiTree &)”
+      D:\ccode\test\test\hello.cpp(42,8):
+      或    “Status Pop(SqStack &,BiTree)”
+      D:\ccode\test\test\hello.cpp(255,5):
+      尝试匹配参数列表“(SqStack, BiTree)”时
+  
+D:\ccode\test\test\hello.cpp(256,5): error C2668: “Push”: 对重载函数的调用不明确
+      D:\ccode\test\test\hello.cpp(141,8):
+      可能是“Status Push(SqStack &,BiTree)”
+      D:\ccode\test\test\hello.cpp(43,8):
+      或    “Status Push(SqStack &,BiTree &)”
+      D:\ccode\test\test\hello.cpp(256,5):
+      尝试匹配参数列表“(SqStack, BiTNode *)”时
+  
+D:\ccode\test\test\hello.cpp(321,16): error C2011: “BiTNode”:“struct”类型重定义
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(327,16): error C2011: “QNode”:“struct”类型重定义
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(335,2): error C2371: “LinkQueue”: 重定义；不同的基类型
+      D:\ccode\test\test\hello.cpp(31,2):
+      参见“LinkQueue”的声明
+  
+D:\ccode\test\test\hello.cpp(341,2): error C2371: “SqStack”: 重定义；不同的基类型
+      D:\ccode\test\test\hello.cpp(37,2):
+      参见“SqStack”的声明
+  
+D:\ccode\test\test\hello.cpp(360,5): error C2084: 函数“int main(void)”已有主体
+      D:\ccode\test\test\hello.cpp(56,5):
+      参见“main”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(433,8): error C2084: 函数“Status InitStack(SqStack &)”已有主体
+      D:\ccode\test\test\hello.cpp(129,8):
+      参见“InitStack”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(434,11): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(440,8): error C2084: 函数“Status StackEmpty(SqStack)”已有主体
+      D:\ccode\test\test\hello.cpp(136,8):
+      参见“StackEmpty”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(445,8): error C2084: 函数“Status Push(SqStack &,BiTree)”已有主体
+      D:\ccode\test\test\hello.cpp(141,8):
+      参见“Push”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(450,8): error C2084: 函数“Status Pop(SqStack &,BiTree &)”已有主体
+      D:\ccode\test\test\hello.cpp(146,8):
+      参见“Pop”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(458,8): error C2084: 函数“Status InitQueue(LinkQueue &)”已有主体
+      D:\ccode\test\test\hello.cpp(154,8):
+      参见“InitQueue”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(459,11): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(461,3): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(464,8): error C2084: 函数“Status EnQueue(LinkQueue &,BiTree)”已有主体
+      D:\ccode\test\test\hello.cpp(160,8):
+      参见“EnQueue”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(465,13): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(466,2): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(467,3): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(469,2): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(473,8): error C2084: 函数“Status DeQueue(LinkQueue &,BiTree &)”已有主体
+      D:\ccode\test\test\hello.cpp(169,8):
+      参见“DeQueue”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(475,7): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(484,8): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(485,7): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(486,4): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(486,18): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(488,2): warning C4150: 删除指向不完整“QNode”类型的指针；没有调用析构函数
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(497,8): error C2084: 函数“Status QueueEmpty(LinkQueue)”已有主体
+      D:\ccode\test\test\hello.cpp(193,8):
+      参见“QueueEmpty”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(498,7): error C2027: 使用了未定义类型“QNode”
+      D:\ccode\test\test\hello.cpp(23,16):
+      参见“QNode”的声明
+  
+D:\ccode\test\test\hello.cpp(503,8): error C2084: 函数“Status CreateBiTree(BiTree &)”已有主体
+      D:\ccode\test\test\hello.cpp(199,8):
+      参见“CreateBiTree”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(512,7): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(513,3): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(515,16): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(517,16): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(521,6): error C2084: 函数“void visit(BiTree)”已有主体
+      D:\ccode\test\test\hello.cpp(217,6):
+      参见“visit”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(523,11): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(527,8): error C2084: 函数“Status PreOrderTraverse(BiTree)”已有主体
+      D:\ccode\test\test\hello.cpp(223,8):
+      参见“PreOrderTraverse”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(530,3): error C2264: “visit”: 函数定义或声明中有错误；未调用函数
+D:\ccode\test\test\hello.cpp(531,20): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(532,20): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(536,8): error C2084: 函数“Status InOrderTraverse(BiTree)”已有主体
+      D:\ccode\test\test\hello.cpp(232,8):
+      参见“InOrderTraverse”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(539,19): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(540,3): error C2264: “visit”: 函数定义或声明中有错误；未调用函数
+D:\ccode\test\test\hello.cpp(541,19): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(545,8): error C2084: 函数“Status InOrderTraverseF(BiTree)”已有主体
+      D:\ccode\test\test\hello.cpp(241,8):
+      参见“InOrderTraverseF”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(551,3): error C2264: “InitStack”: 函数定义或声明中有错误；未调用函数
+D:\ccode\test\test\hello.cpp(552,3): error C2668: “Pop”: 对重载函数的调用不明确
+      D:\ccode\test\test\hello.cpp(450,8):
+      可能是“Status Pop(SqStack &,BiTree &)”
+      D:\ccode\test\test\hello.cpp(42,8):
+      或    “Status Pop(SqStack &,BiTree)”
+      D:\ccode\test\test\hello.cpp(552,3):
+      尝试匹配参数列表“(SqStack, BiTree)”时
+  
+D:\ccode\test\test\hello.cpp(553,10): error C2264: “StackEmpty”: 函数定义或声明中有错误；未调用函数
+D:\ccode\test\test\hello.cpp(554,8): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(555,13): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(555,5): error C2661: “Push”: 没有重载函数接受 1 个参数
+      D:\ccode\test\test\hello.cpp(555,5):
+      尝试匹配参数列表“(SqStack)”时
+  
+D:\ccode\test\test\hello.cpp(556,9): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(559,5): error C2668: “Pop”: 对重载函数的调用不明确
+      D:\ccode\test\test\hello.cpp(450,8):
+      可能是“Status Pop(SqStack &,BiTree &)”
+      D:\ccode\test\test\hello.cpp(42,8):
+      或    “Status Pop(SqStack &,BiTree)”
+      D:\ccode\test\test\hello.cpp(559,5):
+      尝试匹配参数列表“(SqStack, BiTree)”时
+  
+D:\ccode\test\test\hello.cpp(560,13): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(560,5): error C2661: “Push”: 没有重载函数接受 1 个参数
+      D:\ccode\test\test\hello.cpp(560,5):
+      尝试匹配参数列表“(SqStack)”时
+  
+D:\ccode\test\test\hello.cpp(561,13): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(567,8): error C2084: 函数“Status PostOrderTraverse(BiTree)”已有主体
+      D:\ccode\test\test\hello.cpp(263,8):
+      参见“PostOrderTraverse”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(570,21): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(571,21): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(572,3): error C2264: “visit”: 函数定义或声明中有错误；未调用函数
+D:\ccode\test\test\hello.cpp(576,8): error C2084: 函数“Status LevelOrderTraverse(BiTree)”已有主体
+      D:\ccode\test\test\hello.cpp(272,8):
+      参见“LevelOrderTraverse”的前一个定义
+  
+D:\ccode\test\test\hello.cpp(579,2): error C2264: “InitQueue”: 函数定义或声明中有错误；未调用函数
+D:\ccode\test\test\hello.cpp(580,2): error C2264: “EnQueue”: 函数定义或声明中有错误；未调用函数
+D:\ccode\test\test\hello.cpp(582,10): error C2264: “QueueEmpty”: 函数定义或声明中有错误；未调用函数
+D:\ccode\test\test\hello.cpp(583,7): error C2264: “DeQueue”: 函数定义或声明中有错误；未调用函数
+D:\ccode\test\test\hello.cpp(584,12): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(586,7): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(587,15): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(587,4): error C2660: “EnQueue”: 函数不接受 1 个参数
+      D:\ccode\test\test\hello.cpp(464,8):
+      参见“EnQueue”的声明
+      D:\ccode\test\test\hello.cpp(587,4):
+      尝试匹配参数列表“(LinkQueue)”时
+  
+D:\ccode\test\test\hello.cpp(589,7): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(590,15): error C2027: 使用了未定义类型“BiTNode”
+      D:\ccode\test\test\hello.cpp(17,16):
+      参见“BiTNode”的声明
+  
+D:\ccode\test\test\hello.cpp(590,4): error C2660: “EnQueue”: 函数不接受 1 个参数
+      D:\ccode\test\test\hello.cpp(464,8):
+      参见“EnQueue”的声明
+      D:\ccode\test\test\hello.cpp(590,4):
+      尝试匹配参数列表“(LinkQueue)”时
+  
+  tree.cpp
+D:\ccode\test\test\tree.cpp(195,16): warning C4244: “return”: 从“__int64”转换到“Status”，可能丢失数据
+  正在生成代码...
+D:\ccode\test\test\tree.cpp(261,1): error C4716: “Transfer”: 必须返回一个值
