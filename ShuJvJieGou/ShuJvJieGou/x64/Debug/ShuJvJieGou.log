@@ -1,0 +1,4 @@
+﻿  二叉树.cpp
+D:\javacode\ShuJvJieGou\二叉树.cpp(170,1): warning C4715: “InOrderTraverse”: 不是所有的控件路径都返回值
+D:\javacode\ShuJvJieGou\二叉树.cpp(158,1): warning C4715: “PreOrderTraverse”: 不是所有的控件路径都返回值
+  ShuJvJieGou.vcxproj -> D:\javacode\ShuJvJieGou\x64\Debug\ShuJvJieGou.exe
